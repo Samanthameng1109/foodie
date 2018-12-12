@@ -1,0 +1,90 @@
+body{
+background-image:url("../../home1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../../home1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image{
+content:url("../../logo.png");
+width:90px;
+height:80px;
+margin: auto;
+}
+
+
+.toolbar {
+  background-color: rgba(211, 211, 211, 0.8);
+	overflow: hidden;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+}
+.toolbar a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+  margin:0px;
+}
+.toolbar a:hover {
+	background-color: grey;
+	color: white;
+  margin:0px;
+}
+.toolbar a.active {
+ background-color: #4CAF50;
+ color: white;
+ margin:0px;
+}
+
+p{
+color: grey;
+border-color: #999999;
+font-family:Helvetica;
+font-style: italic;
+font-size: 25px;
+padding-left: 10px;
+}
+
+.head{
+  color: black;
+  border-color: #999999;
+  font-family:Helvetica;
+  font-style: italic;
+  font-size: 25px;
+  padding-left: 30px;
+}
+.btn-twitter {
+ background: white;
+ border-color: #grey;
+ bottom:5%;
+ right:53%;
+}
+
+.btn-facebook {
+ background: white;
+ border-color: #grey;
+ bottom:5%;
+ right:53%;
+}
+
+.btn-snapchat {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ right:53%;
+}
+.btn-instagram {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ right:53%;
+}

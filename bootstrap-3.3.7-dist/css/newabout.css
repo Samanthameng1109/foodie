@@ -1,0 +1,139 @@
+
+ul{
+text-align: center;
+  color: white;
+  background: rgba(32, 190, 242, 0.7);
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+
+li{
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#about{
+  text-decoration: underline;
+}
+
+ h1{
+   font-family: Helvetica;
+   color: black;
+   text-align: center;
+   font-size: 70px;
+   text-align:justify;
+   text-justify:inter-word;
+   padding-left: 465px;
+ }
+
+.love{
+  font-family: Helvetica;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  text-align:justify;
+  text-justify:inter-word;
+  padding-left: 600px;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 28px;
+  color: grey;
+  text-align:justify;
+  text-justify:inter-word;
+  border-color: #999999;
+  font-style: italic;
+  position: relative;
+  padding:10px 50px 0px 700px;
+  }
+}
+
+#greeting{
+  font-size: 60px;
+}
+
+hr{
+  color: darkgrey;
+  border: dotted;
+}
+
+body{
+background-image:url("../../home.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../../home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image{
+content:url("../../logo.png");
+width:90px;
+height:80px;
+margin: auto;
+}
+
+.toolbar {
+  background-color: rgba(211, 211, 211, 0.8);
+	overflow: hidden;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+}
+.toolbar a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+  margin:0px;
+}
+.toolbar a:hover {
+	background-color: grey;
+	color: white;
+  margin:0px;
+}
+.toolbar a.active {
+ background-color: #4CAF50;
+ color: white;
+ margin:0px;
+}
+
+
+
+.btn-twitter {
+ background: white;
+ border-color: #grey;
+ bottom:5%;
+ left:42%;
+}
+
+.btn-facebook {
+ background: white;
+ border-color: #grey;
+ bottom:5%;
+ left:47%;
+}
+
+.btn-snapchat {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ left:53%;
+}
+.btn-instagram {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ left:53%;
+}

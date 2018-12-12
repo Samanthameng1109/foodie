@@ -1,0 +1,125 @@
+body{
+background-image:url("../../home.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../../home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image{
+content:url("../../logo.png");
+width:90px;
+height:80px;
+margin: auto;
+}
+
+.toolbar {
+  background-color: rgba(211, 211, 211, 0.8);
+	overflow: hidden;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+}
+.toolbar a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+  margin:0px;
+}
+.toolbar a:hover {
+	background-color: grey;
+	color: white;
+  margin:0px;
+}
+.toolbar a.active {
+ background-color: #4CAF50;
+ color: white;
+ margin:0px;
+}
+
+.chinese{
+content:url("../../chinese.jpg");
+width:700px;
+height:400px;
+margin: auto;
+border: 10px;
+}
+
+.burger1{
+content:url("../../burger1.jpg");
+width:700px;
+height:400px;
+margin: auto;
+}
+
+.italian{
+content:url("../../italian.jpg");
+width:700px;
+height:400px;
+margin: auto;
+}
+
+.cake{
+content:url("../../cake.jpg");
+width:700px;
+height:400px;
+margin: auto;
+}
+
+.fruit{
+content:url("../../fruit.jpg");
+width:700px;
+height:400px;
+margin: auto;
+}
+
+p{
+color: grey;
+border-color: #999999;
+text-align:justify;
+text-justify:inter-word;
+font-family:Helvetica;
+font-style: italic;
+font-size: 25px;
+position: relative;
+padding:10px 50px 0px 650px;
+}
+
+.btn-twitter {
+ background: white;
+ border-color: #grey;
+ bottom:5%;
+ left:42%;
+}
+
+.btn-facebook {
+ background: white;
+ border-color: #grey;
+ bottom:5%;
+ left:47%;
+}
+.btn-pinterest {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ left:53%;
+}
+.btn-snapchat {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ left:53%;
+}
+.btn-instagram {
+ background: white;
+ border-color: grey;
+ bottom:5%;
+ left:53%;
+}
